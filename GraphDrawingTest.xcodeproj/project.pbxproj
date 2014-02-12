@@ -19,6 +19,40 @@
 		B694D2EC189F7FA9002B2F17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B694D2D4189F7FA9002B2F17 /* UIKit.framework */; };
 		B694D2F4189F7FA9002B2F17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B694D2F2189F7FA9002B2F17 /* InfoPlist.strings */; };
 		B694D2F6189F7FA9002B2F17 /* GraphDrawingTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D2F5189F7FA9002B2F17 /* GraphDrawingTestTests.m */; };
+		B694D300189F7FC4002B2F17 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B694D2FF189F7FC4002B2F17 /* Storyboard.storyboard */; };
+		B694D303189F803F002B2F17 /* GraphDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D302189F803F002B2F17 /* GraphDrawViewController.m */; };
+		B694D305189F808B002B2F17 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B694D304189F808B002B2F17 /* OpenGLES.framework */; };
+		B694D307189F8091002B2F17 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B694D306189F8091002B2F17 /* QuartzCore.framework */; };
+		B694D309189F809B002B2F17 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B694D308189F809B002B2F17 /* GLKit.framework */; };
+		B694D30C189F86FA002B2F17 /* GraphDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D30B189F86FA002B2F17 /* GraphDrawer.m */; };
+		B694D31218A00CF3002B2F17 /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D31118A00CF3002B2F17 /* Dot.m */; };
+		B694D32A18A0FF82002B2F17 /* MySprite.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D32918A0FF82002B2F17 /* MySprite.m */; };
+		B694D36D18A14CC6002B2F17 /* ZoomedMemoriDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D36C18A14CC6002B2F17 /* ZoomedMemoriDraw.m */; };
+		B694D37018A14D2D002B2F17 /* MemoriDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D36F18A14D2D002B2F17 /* MemoriDraw.m */; };
+		B694D38718A26FD8002B2F17 /* MyNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D38618A26FD8002B2F17 /* MyNumber.m */; };
+		B694D39218A3C676002B2F17 /* nn0.png in Resources */ = {isa = PBXBuildFile; fileRef = B694D38818A3C676002B2F17 /* nn0.png */; };
+		B694D39318A3C676002B2F17 /* nn1.png in Resources */ = {isa = PBXBuildFile; fileRef = B694D38918A3C676002B2F17 /* nn1.png */; };
+		B694D39418A3C676002B2F17 /* nn2.png in Resources */ = {isa = PBXBuildFile; fileRef = B694D38A18A3C676002B2F17 /* nn2.png */; };
+		B694D39518A3C676002B2F17 /* nn3.png in Resources */ = {isa = PBXBuildFile; fileRef = B694D38B18A3C676002B2F17 /* nn3.png */; };
+		B694D39618A3C676002B2F17 /* nn4.png in Resources */ = {isa = PBXBuildFile; fileRef = B694D38C18A3C676002B2F17 /* nn4.png */; };
+		B694D39718A3C676002B2F17 /* nn5.png in Resources */ = {isa = PBXBuildFile; fileRef = B694D38D18A3C676002B2F17 /* nn5.png */; };
+		B694D39818A3C676002B2F17 /* nn6.png in Resources */ = {isa = PBXBuildFile; fileRef = B694D38E18A3C676002B2F17 /* nn6.png */; };
+		B694D39918A3C676002B2F17 /* nn7.png in Resources */ = {isa = PBXBuildFile; fileRef = B694D38F18A3C676002B2F17 /* nn7.png */; };
+		B694D39A18A3C676002B2F17 /* nn8.png in Resources */ = {isa = PBXBuildFile; fileRef = B694D39018A3C676002B2F17 /* nn8.png */; };
+		B694D39B18A3C676002B2F17 /* nn9.png in Resources */ = {isa = PBXBuildFile; fileRef = B694D39118A3C676002B2F17 /* nn9.png */; };
+		B694D39F18A3C686002B2F17 /* nnDot.png in Resources */ = {isa = PBXBuildFile; fileRef = B694D39C18A3C686002B2F17 /* nnDot.png */; };
+		B694D3A018A3C686002B2F17 /* nnMinus.png in Resources */ = {isa = PBXBuildFile; fileRef = B694D39D18A3C686002B2F17 /* nnMinus.png */; };
+		B694D3A118A3C686002B2F17 /* nnPlus.png in Resources */ = {isa = PBXBuildFile; fileRef = B694D39E18A3C686002B2F17 /* nnPlus.png */; };
+		B694D3A718A3F1AE002B2F17 /* MyEquation.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D3A618A3F1AE002B2F17 /* MyEquation.m */; };
+		B694D3AB18A3F851002B2F17 /* EquationDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D3AA18A3F851002B2F17 /* EquationDraw.m */; };
+		B694D3AE18A8CECE002B2F17 /* GDTNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D3AD18A8CECE002B2F17 /* GDTNode.m */; };
+		B694D3B118AA8E03002B2F17 /* GraphDraw2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D3B018AA8E03002B2F17 /* GraphDraw2ViewController.m */; };
+		B694D3B518AB3DCA002B2F17 /* NumberSprites.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D3B418AB3DCA002B2F17 /* NumberSprites.m */; };
+		B694D3B818AB4941002B2F17 /* CalculatingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D3B718AB4941002B2F17 /* CalculatingNode.m */; };
+		B694D3BA18AB4ABF002B2F17 /* nnY.png in Resources */ = {isa = PBXBuildFile; fileRef = B694D3B918AB4ABF002B2F17 /* nnY.png */; };
+		B694D3BC18AB4ACB002B2F17 /* nnX.png in Resources */ = {isa = PBXBuildFile; fileRef = B694D3BB18AB4ACB002B2F17 /* nnX.png */; };
+		B694D3BF18AB4D55002B2F17 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B694D3BE18AB4D55002B2F17 /* MyButton.m */; };
+		B694D3C218AB6CA7002B2F17 /* drawButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B694D3C118AB6CA7002B2F17 /* drawButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +82,56 @@
 		B694D2F1189F7FA9002B2F17 /* GraphDrawingTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GraphDrawingTestTests-Info.plist"; sourceTree = "<group>"; };
 		B694D2F3189F7FA9002B2F17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B694D2F5189F7FA9002B2F17 /* GraphDrawingTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphDrawingTestTests.m; sourceTree = "<group>"; };
+		B694D2FF189F7FC4002B2F17 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		B694D301189F803F002B2F17 /* GraphDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphDrawViewController.h; sourceTree = "<group>"; };
+		B694D302189F803F002B2F17 /* GraphDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphDrawViewController.m; sourceTree = "<group>"; };
+		B694D304189F808B002B2F17 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B694D306189F8091002B2F17 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B694D308189F809B002B2F17 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B694D30A189F86FA002B2F17 /* GraphDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphDrawer.h; sourceTree = "<group>"; };
+		B694D30B189F86FA002B2F17 /* GraphDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphDrawer.m; sourceTree = "<group>"; };
+		B694D31018A00CF3002B2F17 /* Dot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
+		B694D31118A00CF3002B2F17 /* Dot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
+		B694D32818A0FF82002B2F17 /* MySprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySprite.h; path = numbers/MySprite.h; sourceTree = "<group>"; };
+		B694D32918A0FF82002B2F17 /* MySprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySprite.m; path = numbers/MySprite.m; sourceTree = "<group>"; };
+		B694D36B18A14CC6002B2F17 /* ZoomedMemoriDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomedMemoriDraw.h; sourceTree = "<group>"; };
+		B694D36C18A14CC6002B2F17 /* ZoomedMemoriDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomedMemoriDraw.m; sourceTree = "<group>"; };
+		B694D36E18A14D2D002B2F17 /* MemoriDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoriDraw.h; sourceTree = "<group>"; };
+		B694D36F18A14D2D002B2F17 /* MemoriDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoriDraw.m; sourceTree = "<group>"; };
+		B694D38518A26FD8002B2F17 /* MyNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNumber.h; sourceTree = "<group>"; };
+		B694D38618A26FD8002B2F17 /* MyNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNumber.m; sourceTree = "<group>"; };
+		B694D38818A3C676002B2F17 /* nn0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nn0.png; sourceTree = "<group>"; };
+		B694D38918A3C676002B2F17 /* nn1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nn1.png; sourceTree = "<group>"; };
+		B694D38A18A3C676002B2F17 /* nn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nn2.png; sourceTree = "<group>"; };
+		B694D38B18A3C676002B2F17 /* nn3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nn3.png; sourceTree = "<group>"; };
+		B694D38C18A3C676002B2F17 /* nn4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nn4.png; sourceTree = "<group>"; };
+		B694D38D18A3C676002B2F17 /* nn5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nn5.png; sourceTree = "<group>"; };
+		B694D38E18A3C676002B2F17 /* nn6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nn6.png; sourceTree = "<group>"; };
+		B694D38F18A3C676002B2F17 /* nn7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nn7.png; sourceTree = "<group>"; };
+		B694D39018A3C676002B2F17 /* nn8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nn8.png; sourceTree = "<group>"; };
+		B694D39118A3C676002B2F17 /* nn9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nn9.png; sourceTree = "<group>"; };
+		B694D39C18A3C686002B2F17 /* nnDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nnDot.png; sourceTree = "<group>"; };
+		B694D39D18A3C686002B2F17 /* nnMinus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nnMinus.png; sourceTree = "<group>"; };
+		B694D39E18A3C686002B2F17 /* nnPlus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nnPlus.png; sourceTree = "<group>"; };
+		B694D3A518A3F1AE002B2F17 /* MyEquation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyEquation.h; sourceTree = "<group>"; };
+		B694D3A618A3F1AE002B2F17 /* MyEquation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyEquation.m; sourceTree = "<group>"; };
+		B694D3A818A3F6EC002B2F17 /* GraphDrawingProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphDrawingProtocol.h; sourceTree = "<group>"; };
+		B694D3A918A3F851002B2F17 /* EquationDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquationDraw.h; sourceTree = "<group>"; };
+		B694D3AA18A3F851002B2F17 /* EquationDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquationDraw.m; sourceTree = "<group>"; };
+		B694D3AC18A8CECE002B2F17 /* GDTNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNode.h; sourceTree = "<group>"; };
+		B694D3AD18A8CECE002B2F17 /* GDTNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTNode.m; sourceTree = "<group>"; };
+		B694D3AF18AA8E03002B2F17 /* GraphDraw2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphDraw2ViewController.h; sourceTree = "<group>"; };
+		B694D3B018AA8E03002B2F17 /* GraphDraw2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphDraw2ViewController.m; sourceTree = "<group>"; };
+		B694D3B218AB108E002B2F17 /* NodeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NodeProtocol.h; sourceTree = "<group>"; };
+		B694D3B318AB3DCA002B2F17 /* NumberSprites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberSprites.h; sourceTree = "<group>"; };
+		B694D3B418AB3DCA002B2F17 /* NumberSprites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberSprites.m; sourceTree = "<group>"; };
+		B694D3B618AB4941002B2F17 /* CalculatingNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatingNode.h; sourceTree = "<group>"; };
+		B694D3B718AB4941002B2F17 /* CalculatingNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatingNode.m; sourceTree = "<group>"; };
+		B694D3B918AB4ABF002B2F17 /* nnY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nnY.png; sourceTree = "<group>"; };
+		B694D3BB18AB4ACB002B2F17 /* nnX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nnX.png; sourceTree = "<group>"; };
+		B694D3BD18AB4D55002B2F17 /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		B694D3BE18AB4D55002B2F17 /* MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+		B694D3C118AB6CA7002B2F17 /* drawButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drawButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +139,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B694D309189F809B002B2F17 /* GLKit.framework in Frameworks */,
+				B694D307189F8091002B2F17 /* QuartzCore.framework in Frameworks */,
+				B694D305189F808B002B2F17 /* OpenGLES.framework in Frameworks */,
 				B694D2D3189F7FA9002B2F17 /* CoreGraphics.framework in Frameworks */,
 				B694D2D5189F7FA9002B2F17 /* UIKit.framework in Frameworks */,
 				B694D2D1189F7FA9002B2F17 /* Foundation.framework in Frameworks */,
@@ -96,6 +183,9 @@
 		B694D2CF189F7FA9002B2F17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B694D308189F809B002B2F17 /* GLKit.framework */,
+				B694D306189F8091002B2F17 /* QuartzCore.framework */,
+				B694D304189F808B002B2F17 /* OpenGLES.framework */,
 				B694D2D0189F7FA9002B2F17 /* Foundation.framework */,
 				B694D2D2189F7FA9002B2F17 /* CoreGraphics.framework */,
 				B694D2D4189F7FA9002B2F17 /* UIKit.framework */,
@@ -107,8 +197,25 @@
 		B694D2D6189F7FA9002B2F17 /* GraphDrawingTest */ = {
 			isa = PBXGroup;
 			children = (
-				B694D2DF189F7FA9002B2F17 /* AppDelegate.h */,
-				B694D2E0189F7FA9002B2F17 /* AppDelegate.m */,
+				B694D3C418AB6D04002B2F17 /* View */,
+				B694D3C018AB6C8E002B2F17 /* Buttons */,
+				B694D34218A143ED002B2F17 /* numbers3 */,
+				B694D3C318AB6CEC002B2F17 /* ViewController */,
+				B694D3C518AB6D57002B2F17 /* Protocols */,
+				B694D3C918AB7065002B2F17 /* ButtonStuff */,
+				B694D3C818AB7018002B2F17 /* NumberDrawingStuff */,
+				B694D3C618AB6FBE002B2F17 /* MemoriStuff */,
+				B694D3C718AB6FF6002B2F17 /* EquationStuff */,
+				B694D32818A0FF82002B2F17 /* MySprite.h */,
+				B694D32918A0FF82002B2F17 /* MySprite.m */,
+				B694D3B618AB4941002B2F17 /* CalculatingNode.h */,
+				B694D3B718AB4941002B2F17 /* CalculatingNode.m */,
+				B694D3AC18A8CECE002B2F17 /* GDTNode.h */,
+				B694D3AD18A8CECE002B2F17 /* GDTNode.m */,
+				B694D3A518A3F1AE002B2F17 /* MyEquation.h */,
+				B694D3A618A3F1AE002B2F17 /* MyEquation.m */,
+				B694D31018A00CF3002B2F17 /* Dot.h */,
+				B694D31118A00CF3002B2F17 /* Dot.m */,
 				B694D2E2189F7FA9002B2F17 /* Images.xcassets */,
 				B694D2D7189F7FA9002B2F17 /* Supporting Files */,
 			);
@@ -142,6 +249,108 @@
 				B694D2F2189F7FA9002B2F17 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B694D34218A143ED002B2F17 /* numbers3 */ = {
+			isa = PBXGroup;
+			children = (
+				B694D3BB18AB4ACB002B2F17 /* nnX.png */,
+				B694D3B918AB4ABF002B2F17 /* nnY.png */,
+				B694D39C18A3C686002B2F17 /* nnDot.png */,
+				B694D39D18A3C686002B2F17 /* nnMinus.png */,
+				B694D39E18A3C686002B2F17 /* nnPlus.png */,
+				B694D38818A3C676002B2F17 /* nn0.png */,
+				B694D38918A3C676002B2F17 /* nn1.png */,
+				B694D38A18A3C676002B2F17 /* nn2.png */,
+				B694D38B18A3C676002B2F17 /* nn3.png */,
+				B694D38C18A3C676002B2F17 /* nn4.png */,
+				B694D38D18A3C676002B2F17 /* nn5.png */,
+				B694D38E18A3C676002B2F17 /* nn6.png */,
+				B694D38F18A3C676002B2F17 /* nn7.png */,
+				B694D39018A3C676002B2F17 /* nn8.png */,
+				B694D39118A3C676002B2F17 /* nn9.png */,
+			);
+			path = numbers3;
+			sourceTree = "<group>";
+		};
+		B694D3C018AB6C8E002B2F17 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				B694D3C118AB6CA7002B2F17 /* drawButton.png */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		B694D3C318AB6CEC002B2F17 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B694D2E0189F7FA9002B2F17 /* AppDelegate.m */,
+				B694D2DF189F7FA9002B2F17 /* AppDelegate.h */,
+				B694D3B018AA8E03002B2F17 /* GraphDraw2ViewController.m */,
+				B694D3AF18AA8E03002B2F17 /* GraphDraw2ViewController.h */,
+				B694D302189F803F002B2F17 /* GraphDrawViewController.m */,
+				B694D301189F803F002B2F17 /* GraphDrawViewController.h */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		B694D3C418AB6D04002B2F17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B694D2FF189F7FC4002B2F17 /* Storyboard.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B694D3C518AB6D57002B2F17 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B694D3A818A3F6EC002B2F17 /* GraphDrawingProtocol.h */,
+				B694D3B218AB108E002B2F17 /* NodeProtocol.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		B694D3C618AB6FBE002B2F17 /* MemoriStuff */ = {
+			isa = PBXGroup;
+			children = (
+				B694D36C18A14CC6002B2F17 /* ZoomedMemoriDraw.m */,
+				B694D36B18A14CC6002B2F17 /* ZoomedMemoriDraw.h */,
+				B694D36F18A14D2D002B2F17 /* MemoriDraw.m */,
+				B694D36E18A14D2D002B2F17 /* MemoriDraw.h */,
+			);
+			name = MemoriStuff;
+			sourceTree = "<group>";
+		};
+		B694D3C718AB6FF6002B2F17 /* EquationStuff */ = {
+			isa = PBXGroup;
+			children = (
+				B694D30B189F86FA002B2F17 /* GraphDrawer.m */,
+				B694D30A189F86FA002B2F17 /* GraphDrawer.h */,
+				B694D3A918A3F851002B2F17 /* EquationDraw.h */,
+				B694D3AA18A3F851002B2F17 /* EquationDraw.m */,
+			);
+			name = EquationStuff;
+			sourceTree = "<group>";
+		};
+		B694D3C818AB7018002B2F17 /* NumberDrawingStuff */ = {
+			isa = PBXGroup;
+			children = (
+				B694D38618A26FD8002B2F17 /* MyNumber.m */,
+				B694D38518A26FD8002B2F17 /* MyNumber.h */,
+				B694D3B418AB3DCA002B2F17 /* NumberSprites.m */,
+				B694D3B318AB3DCA002B2F17 /* NumberSprites.h */,
+			);
+			name = NumberDrawingStuff;
+			sourceTree = "<group>";
+		};
+		B694D3C918AB7065002B2F17 /* ButtonStuff */ = {
+			isa = PBXGroup;
+			children = (
+				B694D3BD18AB4D55002B2F17 /* MyButton.h */,
+				B694D3BE18AB4D55002B2F17 /* MyButton.m */,
+			);
+			name = ButtonStuff;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +428,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B694D3BC18AB4ACB002B2F17 /* nnX.png in Resources */,
 				B694D2DB189F7FA9002B2F17 /* InfoPlist.strings in Resources */,
+				B694D39618A3C676002B2F17 /* nn4.png in Resources */,
+				B694D39918A3C676002B2F17 /* nn7.png in Resources */,
 				B694D2E3189F7FA9002B2F17 /* Images.xcassets in Resources */,
+				B694D39518A3C676002B2F17 /* nn3.png in Resources */,
+				B694D39B18A3C676002B2F17 /* nn9.png in Resources */,
+				B694D39218A3C676002B2F17 /* nn0.png in Resources */,
+				B694D39818A3C676002B2F17 /* nn6.png in Resources */,
+				B694D39A18A3C676002B2F17 /* nn8.png in Resources */,
+				B694D3BA18AB4ABF002B2F17 /* nnY.png in Resources */,
+				B694D300189F7FC4002B2F17 /* Storyboard.storyboard in Resources */,
+				B694D39718A3C676002B2F17 /* nn5.png in Resources */,
+				B694D39318A3C676002B2F17 /* nn1.png in Resources */,
+				B694D3A018A3C686002B2F17 /* nnMinus.png in Resources */,
+				B694D39418A3C676002B2F17 /* nn2.png in Resources */,
+				B694D3A118A3C686002B2F17 /* nnPlus.png in Resources */,
+				B694D39F18A3C686002B2F17 /* nnDot.png in Resources */,
+				B694D3C218AB6CA7002B2F17 /* drawButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +466,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				B694D2E1189F7FA9002B2F17 /* AppDelegate.m in Sources */,
+				B694D303189F803F002B2F17 /* GraphDrawViewController.m in Sources */,
+				B694D3B118AA8E03002B2F17 /* GraphDraw2ViewController.m in Sources */,
+				B694D31218A00CF3002B2F17 /* Dot.m in Sources */,
+				B694D38718A26FD8002B2F17 /* MyNumber.m in Sources */,
 				B694D2DD189F7FA9002B2F17 /* main.m in Sources */,
+				B694D3A718A3F1AE002B2F17 /* MyEquation.m in Sources */,
+				B694D3BF18AB4D55002B2F17 /* MyButton.m in Sources */,
+				B694D36D18A14CC6002B2F17 /* ZoomedMemoriDraw.m in Sources */,
+				B694D32A18A0FF82002B2F17 /* MySprite.m in Sources */,
+				B694D3B818AB4941002B2F17 /* CalculatingNode.m in Sources */,
+				B694D37018A14D2D002B2F17 /* MemoriDraw.m in Sources */,
+				B694D3AB18A3F851002B2F17 /* EquationDraw.m in Sources */,
+				B694D3AE18A8CECE002B2F17 /* GDTNode.m in Sources */,
+				B694D30C189F86FA002B2F17 /* GraphDrawer.m in Sources */,
+				B694D3B518AB3DCA002B2F17 /* NumberSprites.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
